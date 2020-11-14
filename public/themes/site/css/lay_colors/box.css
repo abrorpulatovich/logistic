@@ -1,0 +1,64 @@
+body{
+    background: #e2e2e2;
+}
+.box{
+    width: 1230px;
+    margin: 0 auto;
+}
+body.pat1{
+    background: url(../../images/pattern/p1.png) repeat fixed center center #fff;
+}
+body.pat2{
+    background: url(../../images/pattern/p2.png) repeat fixed center center #fff;
+}
+body.pat3{
+    background: url(../../images/pattern/p3.png) repeat fixed center center #fff;
+}
+body.pat4{
+    background: url(../../images/pattern/p4.png) repeat fixed center center #fff;
+}
+.header.fixedHeader {
+    left: auto;
+    right: auto;
+    width: 91.2%;
+}
+.headerMiddle, .companyFeacture, .tesFaqSec, .news1Sec, .servweofferSec, .letNewsSec, .client2Sec, .services3sec,
+.compAboutSec, .client3Sec, .compAboutSecAbPage, .compAboutSec2, .teamMember2, .servicespaSec, .servicesDetails, 
+.gallarySec, .blogSection, .blogDetailsDec, .errorPage, .contactSec,.contactMap, .contactSec2
+{
+    background: #fff;
+}
+.showit{
+    right: 110px;
+}
+.revCont, .revBtn{
+    margin-left:100px;
+}
+
+
+@media(min-width:1400px){
+    .box{
+        width: 1230px;
+        margin: 0 auto;
+    }
+    .header.fixedHeader {
+        left: auto;
+        right: auto;
+        width: 64.67%;
+    }
+    .tp-rightarrow.tparrows.default.round {
+        right: 15px !important;
+    }
+    .tp-leftarrow.tparrows.default.round {
+        left: 15px !important;
+    }
+    .showit {
+        right: 400px;
+    }
+}
+@media(min-width:980px) and (max-width:1280px){
+    .box{
+        width: 1167px;
+        margin: 0 auto;
+    }
+}

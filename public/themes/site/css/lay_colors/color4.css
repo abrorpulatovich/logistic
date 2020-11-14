@@ -1,0 +1,43 @@
+.switchTittle , .flagList li:hover, .pifourBtn, .owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span, .owl-theme .owl-nav [class*="owl-"], .contactForm button, .showit, 
+.pifourBtnw:hover, .gallHover a, .testDeg h2::after, .loadmoreBtnNews a, .servicesNav li a:hover, 
+.servicesNav li.active a, #sblogImgGall.owl-theme .owl-nav [class*="owl-"], .blogReadmore, .search button
+{
+    background: #ffa60a;
+}
+
+.currentFlg.active, .singlehmib i, .mainnav ul li:hover > a, .mainnav ul li.active a,
+.mainnav ul ul.sub-menu li a:hover, .socialmedia a:hover, .headerSeacBtn:hover, .singleSer i, .singFaq a.active,
+.newdate h2, .news2meta, .news2meta a, .news2meta1 a, .news2meta1, .newsletter button:hover, .navigation > li a:hover,
+.singleAdds a:hover, .copyright a:hover, .newsTitle a:hover, .serv2Title a:hover, .serreadmore, 
+.searchMe a.cluseSearch:hover, .singleweservOffer i, .news3Title a:hover, .news3meta a:hover, .news3moreBtn, .testDeg h2,
+.single4servIn i, .newsTitleupp a:hover , .teamDeg p, .Compvission ul li::after, .servTitle a:hover, .servReadmo,
+.downloadpdflink a:hover, .blogTitle a:hover, .blogMeta a, .blogMeta, .widgetList li a:hover, .widgetList li::after, 
+.singsRecPost h2 a:hover, .recSidmeta a:hover, .shareSocial a, .singComTitle a:hover, .comdate, .comreplay,
+.singleContadds i, .contactSocial a:hover, .singleContadds a:hover
+
+{
+    color: #ffa60a;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    border-color: #ffa60a;
+}
+
+.serreadmore:hover{
+    color: #333;
+}
+
+/**Button style two color combine**/
+.newsBtn{
+    background: #ffa60a;
+}
+.newsBtn i{
+    background: #de920c;
+}
+.newsBtn:hover{
+    background: #de920c;
+}
+.newsBtn:hover i{
+    background: #ffa60a;
+}

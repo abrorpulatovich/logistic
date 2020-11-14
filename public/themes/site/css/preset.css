@@ -1,0 +1,206 @@
+/* @import url(https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic); */
+.fmlato{
+    font-family: 'Lato', sans-serif;
+}
+/*=======================================================================
+// Normalization
+=========================================================================*/
+htm,body{
+    color: #848484;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+} 
+a{
+    color: #222222;
+    transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -webkit-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+}
+a:hover{
+    text-decoration: none;
+    color: #006db7;
+}
+a:focus{
+    outline: 0;
+    text-decoration: none;
+}
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button{
+    border: none;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    font-family: 'Lato', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+    line-height: .8;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+/*=======================================================================
+//  section setup
+=========================================================================*/
+.bggray{
+    background: #f0f0f0;
+}
+.commonSectionTitle {
+    margin-bottom: 47px;
+}
+.commonSectionTitle.inner{
+    margin-bottom: 37px;
+}
+.commonSectionTitle h2{
+    color: #262f36;
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.commonSectionTitle p{
+    color: #848484;
+}
+.commonSectionTitle.white h2,
+.commonSectionTitle.white p{
+    color: #fff;
+}
+.commonSectionTitleIn h2{
+    color: #262f36;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+.commonSectionTitleIn.white h2{
+    color: #fff;
+}
+/*=======================================================================
+//  Button style
+=========================================================================*/
+.pifourBtn{
+    background: #006db7;
+    height: 50px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: .8;
+    display: inline-block;
+    padding: 18px 26px;
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif;
+}
+.pifourBtn:hover{
+    background: #333;
+    color: #fff;
+}
+.pifourBtnw{
+    background: #fff;
+    height: 50px;
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: .8;
+    display: inline-block;
+    padding: 18px 26px;
+    border-radius: 3px;
+    font-family: 'Lato', sans-serif;
+}
+.pifourBtnw:hover{
+    background: #006db7;
+    color: #fff;
+}
+.newsBtn{
+    height: 40px;
+    display: inline-block;
+    background: #006db7;
+    text-transform: capitalize;
+    font-size: 13px;
+    line-height: .8;
+    color: #fff;
+    border-radius: 3px;
+    position: relative;
+    padding: 15px 63px 15px 13px;
+    font-family: 'Lato', sans-serif;
+}
+.newsBtn i{
+    width: 35px;
+    height: 40px;
+    background: #147ac0;
+    padding: 15px;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.newsBtn:hover{
+    background: #147ac0;
+    color: #fff
+}
+.newsBtn:hover i{
+    background: #006db7;
+    color: #fff;
+}
+/*=======================================================================
+//  Overlay
+=========================================================================*/
+.overlay70{
+    position: relative;
+}
+.overlay70:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .70);
+    content: '';
+}
+/*=======================================================================
+//  Margin and padding setup
+=========================================================================*/
+.noPadding{
+    padding: 0px !important;
+}
+.noPaddingBottom{
+    padding-bottom: 0px !important;
+}
+.noPaddingLeft{
+    padding-left: 0px !important;
+}
+.noPaddingRight{
+    padding-right: 0px !important;
+}
+.noMarginBottom{
+    margin-bottom: 0px !important;
+}
+.noMarginRight{
+    margin-right: 0px !important;
+}
+.noPaddingTop{
+    padding-top: 0px !important;
+}
+
+table td {
+    padding: 10px;
+}
